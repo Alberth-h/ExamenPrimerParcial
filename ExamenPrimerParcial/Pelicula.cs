@@ -46,7 +46,7 @@ namespace ExamenPrimerParcial
 
             set
             {
-                if((value > 0))
+                if((value > -1))
                 {
                     _duracion = value;
                 }

@@ -20,7 +20,7 @@ namespace ExamenPrimerParcial
             playlists.Add(pl2);
 
             //Peliculas terror
-            Pelicula p1 = new Pelicula("El regreso del Ayuwoki", 2020, "Jonh Cena", "Terror", "USA", 100, 4, "El ayuwoki regresa");
+            Pelicula p1 = new Pelicula("El regreso del Ayuwoki", 2019, "Jonh Cena", "Terror", "USA", 100, 5, "El ayuwoki regresa");
             Pelicula p2 = new Pelicula("La muerte", 1990, "Andres R.", "Terror", "Mexico", 80, 3, "La muerte viene por ti");
             Pelicula p3 = new Pelicula("666", 2000, "Jonh Cena", "Terror", "USA", 90, 4, "El diablo y su numero");
             Pelicula p4 = new Pelicula("Estado Paranormal", 2013, "Jesus E.", "Terror", "Mexico", 70, 2, "Todo es paranormal");
@@ -30,12 +30,12 @@ namespace ExamenPrimerParcial
 
             //Peliculas animadas
             Pelicula p8 = new Pelicula("Caillou", 2005, "Jonh Cena", "Infantil", "USA", 150, 4, "Es de caillou");
-            Pelicula p9 = new Pelicula("Toy story", 2006, "Andres R.", "Animacion", "USA", 80, 4, "Juguetes vivos");
+            Pelicula p9 = new Pelicula("Toy story", 2006, "Andres R.", "Animacion", "USA", 80, 5, "Juguetes vivos");
             Pelicula p10 = new Pelicula("Shrek", 2003, "Jonh Cena", "Animacion", "USA", 90, 4, "Ogro y cosas magicas");
             Pelicula p11 = new Pelicula("Cars", 2005, "Jesus E.", "Animacion", "USA", 70, 2, "Carros que hablan");
             Pelicula p12 = new Pelicula("Wall-e", 2011, "Jonh Cena", "Animacion", "USA", 100, 4, "Robot que viaja al espacio");
             Pelicula p13 = new Pelicula("Coco", 2018, "Carlos E.", "Animacion", "Mexico", 110, 4, "Niño con guitarra");
-            Pelicula p14 = new Pelicula("Un pequeño problema", 2018, "9 productions", "Animacion", "Mexico", 2, 4, "Aliens");
+            Pelicula p14 = new Pelicula("Un pequeño problema", 2018, "9 productions", "Animacion", "Mexico", 2, 5, "Aliens");
 
             //Constructor vacio
             Pelicula pelicula1 = new Pelicula();
