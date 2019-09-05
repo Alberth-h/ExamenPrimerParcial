@@ -26,9 +26,9 @@ namespace ExamenPrimerParcial
 
             set
             {
-                if((value > 1800) && (value < 2019))
+                if((value > 1799) && (value < 2020))
                 {
-                    _estreno = Estreno;
+                    _estreno = value;
                 }
                 else
                 {
@@ -48,7 +48,7 @@ namespace ExamenPrimerParcial
             {
                 if((value > 0))
                 {
-                    _duracion = Duracion;
+                    _duracion = value;
                 }
                 else
                 {
@@ -66,9 +66,9 @@ namespace ExamenPrimerParcial
 
             set
             {
-                if((value > 0) && (value < 10))
+                if((value > -1) && (value < 11))
                 {
-                    _rate = Rate;
+                    _rate = value;
                 }
                 else
                 {
@@ -84,7 +84,7 @@ namespace ExamenPrimerParcial
             Director = "No asignado";
             Genero = "No asignado";
             Origen = "No asignado";
-            Duracion = 1;
+            Duracion = 0;
             Rate = 5;
             Sipnosis = "No asignado";
         }
